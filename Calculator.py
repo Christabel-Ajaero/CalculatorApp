@@ -1,5 +1,8 @@
-def add(x, y):
-    addition = x + y 
+from update import read_fromfile
+data = read_fromfile()
+
+def add(data):
+    addition = data["x"] + data ["y"]
     return addition
 
 def subtract(x, y):
@@ -9,3 +12,7 @@ def subtract(x, y):
 def multiply(x, y):
     multiply = x + y 
     return multiply
+
+def divide(x, y):
+    divide = x + y 
+    return divide
